@@ -1,3 +1,6 @@
+"""
+juntar recta normal en las zonas oscuras con recta exponencial en las zonas claras
+"""
 import numpy as np
 import math
 from skimage import io
