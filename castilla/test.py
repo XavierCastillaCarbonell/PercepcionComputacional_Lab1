@@ -54,7 +54,7 @@ def transformTest2(img,thresholdToCorrect,brightCorrection):
 ## En vez de corregir el brillo podriamos ajunstar los colores RGB para formar una imagen
 
 #img = load_img("../images/ARA_9582.jpg", (1200, 800), False)
-img = cv2.imread("../images/ARA_9571.jpg", cv2.IMREAD_COLOR) #BGR
+img = cv2.imread("../images/ARA_9556.jpg", cv2.IMREAD_COLOR) #BGR
 #img = cv2.imread("../images/ejemplo1.webP", cv2.IMREAD_COLOR) #BGR
 
 
@@ -63,7 +63,7 @@ fig, axs = plt.subplots(figsize=(15,10))
 plt.title('ORIGINAL') #PLOT funciona con RGB
 plt.imshow(img)
 
-img2 = transformTest2(img,0.1,0.8)
+img2 = transformTest2(img,0.3,0.7)
 
 fig, axs = plt.subplots(figsize=(15,10))
 plt.title('Fixed') #PLOT funciona con RGB
